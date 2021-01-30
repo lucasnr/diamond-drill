@@ -1,0 +1,132 @@
+#footer {
+  background-image: url(../../img/background-footer.png);
+  background-repeat: repeat;
+  color: #fff;
+}
+
+#footer .container {
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+#footer .logo {
+  margin-bottom: 1.5rem;
+}
+
+#footer .footer-title {
+  color: #e61d25;
+  font-size: 0.75rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+  margin-top: 0px;
+  text-transform: uppercase;
+}
+
+#footer .footer-title span {
+  font-size: 105%;
+  font-weight: 500;
+}
+
+#footer #about-us .footer-title {
+  display: inline-block;
+  padding-right: 5rem;
+}
+
+#footer .footer-title::after {
+  background-color: #e61d25;
+  content: ' ';
+  display: block;
+  height: 0.1875rem;
+  margin-top: 0.25rem;
+  width: 80%;
+}
+
+#footer #about-us .footer-title::after,
+#footer #newsletter .footer-title::after {
+  width: 100%;
+}
+
+#footer p {
+  line-height: 1.5;
+  font-size: 0.75rem;
+  font-weight: 500;
+  margin-top: 0px;
+  text-align: justify;
+}
+
+#footer #newsletter p {
+  text-align: justify;
+  text-align-last: auto;
+  text-transform: uppercase;
+}
+
+#footer ul {
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+#footer ul li {
+  align-items: center;
+  flex-direction: row;
+}
+
+#footer ul li::before {
+  background-image: url(../../img/icons/icon-click-arrow.png);
+  background-position: center;
+  background-size: cover;
+  content: '';
+  display: block;
+  height: 0.875rem;
+  margin-right: 0.25rem;
+  width: 0.875rem;
+}
+
+#footer ul li strong {
+  font-size: 95%;
+}
+
+#footer ul li a {
+  padding: 0.25rem 0px;
+}
+
+#footer form {
+  align-items: stretch;
+  display: flex;
+  width: 100%;
+}
+
+#footer form input {
+  border: none;
+  font-size: 0.75rem;
+  padding: 0.625rem 1rem;
+  width: 100%;
+}
+
+#footer form button {
+  background-color: #e61d25;
+  border: none;
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+}
+
+#footer #footer-bottom {
+  background-color: rgba(0, 0, 0, 0.375);
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+@media (min-width: 1200px) {
+  #footer form button {
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+  }
+
+  #footer #about-us p {
+    text-align-last: justify;
+  }
+}

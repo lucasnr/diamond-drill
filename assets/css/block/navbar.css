@@ -1,0 +1,52 @@
+#navbar {
+  display: flex;
+  padding: 3.125rem 0px;
+}
+
+#navbar .row > *:last-child {
+  margin-left: auto;
+}
+
+#navbar ul {
+  text-transform: uppercase;
+}
+
+#navbar ul li {
+  margin: 1rem 0px;
+}
+
+#navbar ul li a {
+  border-bottom: 0.125rem solid transparent;
+  font-size: 0.875rem;
+  padding: 0.25rem;
+  transition: border-color 0.2s ease;
+  white-space: nowrap;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a:focus,
+#navbar ul li.active a {
+  border-color: #e61d25;
+}
+
+#navbar svg {
+  height: 1.75rem;
+  width: 1.75rem;
+}
+
+@media (min-width: 576px) {
+  #navbar ul li + li {
+    margin-left: 1rem;
+  }
+
+  #navbar ul li a {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  #navbar ul {
+    margin-left: 4rem;
+  }
+}
