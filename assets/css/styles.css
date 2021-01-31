@@ -20,6 +20,11 @@
   outline: none;
 }
 
+html,
+body {
+  overflow-x: hidden !important;
+}
+
 body {
   color: #0b0b0b;
   display: flex;
@@ -58,6 +63,10 @@ ul li {
 
 address {
   font-style: normal;
+}
+
+button {
+  cursor: pointer;
 }
 
 .container {

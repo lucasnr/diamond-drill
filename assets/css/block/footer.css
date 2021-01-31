@@ -1,5 +1,6 @@
 #footer {
-  background-image: url(../../img/background-footer.png);
+  background-color: #121212;
+  background-image: url(../../img/background.png);
   background-repeat: repeat;
   color: #fff;
 }
