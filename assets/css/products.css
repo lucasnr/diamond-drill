@@ -19,6 +19,7 @@
 
 #search form select {
   appearance: none;
+  border: 0.0625rem solid #000;
   background-color: #fff;
   background-image: url(../img/icons/icon-dropdown.png);
   background-position: right 0.75rem center;

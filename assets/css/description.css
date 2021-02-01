@@ -1,0 +1,353 @@
+#navbar {
+  z-index: 10;
+}
+
+.title {
+  font-size: 2.625rem;
+}
+
+#banner {
+  padding-bottom: 4rem;
+  position: relative;
+}
+
+#banner .title {
+  border-bottom: 0.25rem solid #e61d25;
+  display: inline-block;
+  margin-bottom: 1rem;
+  margin-top: 0px;
+}
+
+#banner p {
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  margin-top: 0px;
+  margin-bottom: 1rem;
+  max-width: 22rem;
+  text-align: justify;
+}
+
+#banner .button {
+  align-items: center;
+  border-radius: 80rem;
+  color: #000;
+  display: flex;
+  font-family: 'Gotham Book';
+  font-size: 0.75rem;
+  font-weight: 400;
+  overflow: hidden;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
+#banner .button:first-of-type {
+  margin-right: 1rem;
+}
+
+#banner .button:active,
+#banner .button:focus,
+#banner .button:hover {
+  color: #fff;
+}
+
+#banner .button strong {
+  font-weight: 500;
+  margin-right: 0.25rem;
+}
+
+#banner .button#header-pdf {
+  padding-left: 0px;
+}
+
+#banner .button#header-pdf::before {
+  background-color: #e61d25;
+  background-image: url(../img/icons/icon-pdf.png);
+  background-size: 1rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  content: ' ';
+  display: block;
+  height: 100%;
+  margin-right: 1rem;
+  min-height: 1rem;
+  min-width: 1rem;
+  padding: 0.25em 0.5em;
+  width: 1rem;
+}
+
+#banner img {
+  left: 50%;
+  position: absolute;
+  top: -3.375rem;
+  transform: translateX(-15%);
+}
+
+#cards .card {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 60vw;
+  padding: 3rem 0px;
+}
+
+#cards .card * {
+  text-shadow: 0px 0px 0.75rem #121212;
+}
+
+#cards .card p {
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  margin: 0px;
+  text-align: justify;
+}
+
+#cards .card .container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#cards .card .title {
+  font-family: 'Gotham Book';
+  font-weight: 400;
+  font-size: 0.875rem;
+  margin: 0px;
+  margin-bottom: auto;
+}
+
+#cards #cards-row {
+  position: relative;
+}
+
+#cards #cards-row .cards-row-image {
+  height: 100%;
+  left: 0;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  z-index: -1;
+}
+
+#cards #video-container {
+  background-color: rgba(0, 0, 0, 0.75);
+  position: relative;
+}
+
+#cards #video-container #video-container-thumb {
+  height: 100%;
+  left: 0px;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  z-index: -1;
+}
+
+#cards #video-play-button {
+  background: none;
+  border: none;
+  display: flex;
+  padding: 0px;
+}
+
+#cards #video-duration {
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+#details {
+  margin-bottom: -7rem;
+  z-index: 10;
+}
+
+#details #details-images img {
+  margin: 0.25rem;
+  object-fit: cover;
+  object-position: center;
+  width: 50%;
+}
+
+#details .title {
+  border-bottom: 0.25rem solid #e61d25;
+  display: inline-block;
+  margin: 0px;
+  padding-bottom: 0.25rem;
+  -webkit-text-stroke: 0.5px;
+}
+
+#details .title + * {
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  max-width: 20rem;
+  margin-bottom: 0px;
+  margin-top: 1rem;
+}
+
+#details .subtitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  margin-top: 3rem;
+}
+
+#details ul li {
+  align-items: center;
+  font-size: 0.8125rem;
+  flex-direction: row;
+  padding: 0.375rem 0px;
+}
+
+#details ul li strong {
+  margin-right: 0.25rem;
+}
+
+#details #details-last-item ul li {
+  background-color: #e61d25;
+  color: #fff;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+#questions {
+  background-image: url(../img/background-questions.png);
+  background-size: cover;
+  color: #fff;
+  height: 27.25rem;
+  margin-top: auto;
+  padding-top: 5rem;
+}
+
+#questions .title {
+  border-bottom: 0.25rem solid #fff;
+  display: inline-block;
+  margin: 0px;
+  padding-bottom: 0.375rem;
+}
+
+#questions p {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+  margin-top: 1rem;
+  text-align: justify;
+}
+
+#questions .button {
+  align-items: center;
+  border-radius: 80rem;
+  color: #fff;
+  display: flex;
+  font-family: 'Gotham Book';
+  font-weight: 400;
+  height: 2rem;
+  padding: 0.25em 0.75em;
+  width: 100%;
+  -webkit-text-stroke: 0px;
+}
+
+#questions .button strong {
+  font-weight: 500;
+}
+
+#questions .button::before {
+  background-size: cover;
+  content: '';
+  display: block;
+  margin-right: auto;
+}
+
+#questions .button > span {
+  margin-right: auto;
+}
+
+#questions .button#whatsapp::before {
+  background-image: url(../img/icons/icon-whatsapp-white.png);
+  height: 1.25rem;
+  width: 1.25rem;
+}
+
+#questions .button#pdf::before {
+  background-image: url(../img/icons/icon-pdf.png);
+  height: 1rem;
+  width: 1rem;
+}
+
+#questions .button#whatsapp {
+  border-color: #1de022;
+}
+
+#questions .button#whatsapp:active,
+#questions .button#whatsapp:focus,
+#questions .button#whatsapp:hover {
+  background-color: #1de022;
+}
+
+@media (max-width: 768px) {
+  #cards #cards-row .card {
+    background-color: rgba(0, 0, 0, 0.25);
+    padding: 2rem;
+    position: relative;
+  }
+
+  #cards #cards-row .container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+@media (min-width: 576px) {
+  #banner .button {
+    font-size: 0.875em;
+  }
+
+  #cards .card {
+    height: 28.5rem;
+  }
+
+  #details #details-images img {
+    height: 17.25rem;
+    width: 15.25rem;
+  }
+
+  #questions {
+    background-position: right top;
+  }
+}
+
+@media (min-width: 768px) {
+  #banner {
+    padding-bottom: 8rem;
+    padding-top: 7rem;
+  }
+
+  #cards #cards-row .cards-row-image {
+    width: 50%;
+  }
+
+  #cards #cards-row #card-right .cards-row-image {
+    left: 50%;
+  }
+}
+
+@media (min-width: 992px) {
+  #cards .card#card-left {
+    padding-right: 2rem;
+  }
+
+  #cards .card#card-right {
+    padding-left: 2rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  #banner {
+    padding-top: 4rem;
+  }
+
+  #banner img {
+    top: -6.375rem;
+  }
+}
