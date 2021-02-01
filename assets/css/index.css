@@ -2,35 +2,6 @@ main section:last-child {
   padding-bottom: 6rem !important;
 }
 
-.title {
-  font-family: 'Eurostile';
-  font-weight: 700;
-  font-size: 2.25rem;
-  text-transform: uppercase;
-}
-
-.button {
-  background-color: transparent;
-  border: 0.125rem solid #e61d25;
-  color: #e61d25;
-  display: inline-block;
-  font-family: 'Eurostile';
-  font-size: 0.875rem;
-  font-weight: 700;
-  padding: 0.5em 1.5em;
-  text-align: center;
-  text-transform: uppercase;
-  transition: background-color 0.2s ease, color 0.2s ease;
-  -webkit-text-stroke: 0.25px;
-}
-
-.button:active,
-.button:focus,
-.button:hover {
-  background-color: #e61d25;
-  color: #fff;
-}
-
 /* BANNER */
 
 #banner #banner-image {
@@ -285,7 +256,7 @@ main section:last-child {
   #security-quality::before {
     background-image: linear-gradient(
       to right,
-      #fff 45%,
+      #f4f4f4 45%,
       transparent,
       transparent
     );
@@ -343,7 +314,7 @@ main section:last-child {
   #security-quality::before {
     background-image: linear-gradient(
       to right,
-      #fff 35%,
+      #f4f4f4 35%,
       transparent,
       transparent
     );
