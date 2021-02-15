@@ -1,0 +1,87 @@
+.news-date {
+  font-size: 0.75rem;
+}
+
+.news-thumb {
+  display: block;
+  height: 15rem;
+  object-fit: cover;
+  object-position: center;
+  margin: 2rem 0px;
+  width: 100%;
+}
+
+.news p {
+  margin-top: 0px;
+  margin-bottom: 1rem;
+}
+
+.news p strong {
+  color: #e61d25;
+  font-weight: 600;
+}
+
+.news .news-subtitle {
+  font-family: 'Eurostile';
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  margin-top: 0px;
+}
+
+.news figure {
+  margin: 0px;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.news figure img {
+  max-width: 100%;
+}
+
+.news figure figcaption {
+  font-size: 0.8575rem;
+  margin-top: 0.5rem;
+}
+
+.news ul {
+  list-style-type: disc;
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.news ul li {
+  display: list-item;
+}
+
+.news p,
+.news ul li {
+  font-size: 0.875rem;
+  line-height: 1.75;
+  text-align: justify;
+}
+
+.news p a {
+  text-decoration: underline;
+}
+
+#controls {
+  border-top: 0.125rem dotted rgba(0, 0, 0, 0.5);
+  padding-top: 2rem;
+  margin-top: 2rem;
+}
+
+@media (min-width: 576px) {
+  .news-date {
+    font-size: 0.875rem;
+  }
+
+  .news-thumb {
+    height: 25rem;
+  }
+
+  .news p,
+  .news ul li {
+    font-size: 0.9375rem;
+  }
+}
