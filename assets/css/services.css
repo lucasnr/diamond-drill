@@ -1,0 +1,55 @@
+#services {
+  padding-bottom: 5rem;
+  padding-top: 1rem;
+}
+
+.service {
+  height: 100%;
+  margin: 0.75rem 0px;
+}
+
+.service .service-thumb {
+  object-fit: cover;
+  object-position: center;
+  width: 50%;
+}
+
+.service .service-content {
+  flex-grow: 1;
+  margin: auto 0px;
+  padding: 1rem 0px;
+}
+
+.service p {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin: 0px;
+  text-align: justify;
+}
+
+.service strong {
+  color: #e61d25;
+  font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  .service {
+    box-shadow: 0px 0px 0.5rem rgba(0, 0, 0, 0.125);
+    display: flex;
+  }
+
+  .service:nth-of-type(even) {
+    background-image: url(../img/background.png);
+    background-repeat: repeat;
+    color: #fff;
+    flex-direction: row-reverse;
+  }
+
+  .service .service-thumb {
+    width: auto;
+  }
+
+  .service .service-content {
+    padding: 1rem;
+  }
+}

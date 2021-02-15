@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./assets/css/styles.css" />
     <link rel="stylesheet" href="./assets/css/block/navbar.css" />
     <link rel="stylesheet" href="./assets/css/block/footer.css" />
-    <link rel="stylesheet" href="./assets/css/products.css" />
+    <link rel="stylesheet" href="./assets/css/services.css" />
   </head>
   <body>
     <navbar id="navbar">
@@ -27,11 +27,11 @@
               <li>
                 <a href="./index.html">Sobre nós</a>
               </li>
-              <li>
-                <a href="./services.html">Serviços</a>
-              </li>
               <li class="active">
-                <a href="#">Produtos</a>
+                <a href="#">Serviços</a>
+              </li>
+              <li>
+                <a href="./products.html">Produtos</a>
               </li>
               <li>
                 <a href="#">Noticias</a>
@@ -82,163 +82,91 @@
 
     <main>
       <div class="container">
-        <section id="search">
-          <div class="row align-items-center gx-5 gy-4">
-            <div class="col-md-6 col-lg-5 col-xl-4">
-              <h1 class="title">Descubra a sonda ideal para você</h1>
+        <h1 class="title m-0">Nossos serviços</h1>
+
+        <section id="services">
+          <div class="service">
+            <img
+              class="service-thumb"
+              src="./assets/img/produto-1.jpg"
+              alt="Produto Diamond Drill"
+            />
+            <div class="service-content">
               <p>
-                Selecione as opções abaixo que melhor se adaptam para seu
-                serviço e iremos te indicar uma sonda:
+                Lorem ipsum dolor
+                <strong>sit amet consectetur adipisicing elit</strong>. Magnam
+                dicta doloremque sed architecto ipsum quibusdam in harum at
+                minus accusantium tempore earum esse repudiandae pariatur quod,
+                eos veniam iusto fugit. Lorem ipsum dolor, sit amet consectetur
+                adipisicing elit. Possimus, minus. Recusandae, modi blanditiis
+                autem maiores voluptas vitae eum at amet illum maxime explicabo
+                aliquam nisi pariatur assumenda non omnis aut?
               </p>
-              <form class="d-flex flex-column">
-                <select>
-                  <option disabled selected>
-                    Qual é o seu ramo de serviço?
-                  </option>
-                </select>
-
-                <select>
-                  <option disabled selected>Qual tipo de operação?</option>
-                </select>
-
-                <select>
-                  <option disabled selected>
-                    Quantos mts você quer atingir?
-                  </option>
-                </select>
-
-                <button type="submit">Procurar</button>
-              </form>
-            </div>
-            <div class="col-md-6 col-lg-7 col-xl-8">
-              <img
-                src="./assets/img/banner-products.jpg"
-                alt="Equipamento Diamond Drill"
-              />
             </div>
           </div>
-        </section>
-
-        <section id="cards" class="py-4">
-          <div class="row gx-xl-5 gy-4 align-items-start">
-            <div class="col-md-6">
-              <div class="d-sm-flex flex-md-column flex-lg-row">
-                <div class="card" id="linha-compact">
-                  <h3 class="title">Linha <br />Compact</h3>
-                  <p>
-                    A <em>Linha Compact</em> se trata de equipamentos
-                    especifícos voltados para o serviço de SPT Automatizado.
-                  </p>
-                  <a href="#" class="button">Veja nossas sondas</a>
-
-                  <img
-                    src="./assets/img/produto-5.png"
-                    alt="Equipamento Diamond Drill"
-                  />
-                </div>
-
-                <!-- minicards -->
-                <div
-                  class="d-flex flex-column flex-md-row flex-lg-column justify-content-start justify-content-md-center justify-content-lg-start"
-                >
-                  <div class="mini-card">
-                    <h4 class="title">CD 100E</h4>
-                    <h5 class="subtitle">Sonda SPTa em Esteiras</h5>
-                    <a href="#" class="button">Veja +</a>
-                    <img
-                      src="./assets/img/produto-3.jpg"
-                      alt="Equipamento Diamond Drill"
-                    />
-                  </div>
-                  <div class="mini-card">
-                    <h4 class="title">CD 100</h4>
-                    <h5 class="subtitle">Sonda SPTa em Reboque</h5>
-                    <a href="#" class="button">Veja +</a>
-                    <img
-                      src="./assets/img/produto-4.jpg"
-                      alt="Equipamento Diamond Drill"
-                    />
-                  </div>
-                </div>
-                <!-- minicards -->
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="d-sm-flex flex-md-column flex-lg-row">
-                <div class="card" id="linha-prime">
-                  <h3 class="title">Linha <br />Prime</h3>
-                  <p>
-                    A <em>Linha Prime</em> contem sondas das mais variadas
-                    formas de operação e é voltada para os mais diversos
-                    setores.
-                  </p>
-                  <a href="#" class="button"> Veja nossas sondas</a>
-
-                  <img
-                    src="./assets/img/produto-6.png"
-                    alt="Equipamento Diamond Drill"
-                  />
-                </div>
-
-                <!-- minicards -->
-                <div
-                  class="d-flex flex-column flex-md-row flex-lg-column justify-content-start justify-content-md-center justify-content-lg-start"
-                >
-                  <div class="mini-card">
-                    <h4 class="title">NIX</h4>
-                    <h5 class="subtitle">Até 40 MTS</h5>
-                    <a href="#" class="button">Veja +</a>
-                    <img
-                      src="./assets/img/produto-1.jpg"
-                      alt="Equipamento Diamond Drill"
-                    />
-                  </div>
-                  <div class="mini-card">
-                    <h4 class="title">Pegasus</h4>
-                    <h5 class="subtitle">Até 150 MTS</h5>
-                    <a href="#" class="button">Veja +</a>
-                    <img
-                      src="./assets/img/produto-2.jpg"
-                      alt="Equipamento Diamond Drill"
-                    />
-                  </div>
-                </div>
-                <!-- minicards -->
-              </div>
+          <div class="service">
+            <img
+              class="service-thumb"
+              src="./assets/img/produto-1.jpg"
+              alt="Produto Diamond Drill"
+            />
+            <div class="service-content">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+                dicta doloremque sed architecto ipsum quibusdam in harum at
+                minus accusantium tempore earum esse
+                <strong> pariatur</strong> quod, eos veniam iusto fugit. Lorem
+                ipsum dolor, sit amet consectetur adipisicing elit. Possimus,
+                minus. Recusandae, modi blanditiis autem maiores voluptas vitae
+                eum at amet illum maxime explicabo aliquam nisi pariatur
+                assumenda non omnis aut?
+              </p>
             </div>
           </div>
-        </section>
-
-        <section id="bottom-cards" class="py-4">
-          <div class="row gx-xl-5 gy-4 align-items-stretch">
-            <div class="col-lg-6">
-              <div class="card" id="whatsapp">
-                <img
-                  src="./assets/img/whatsapp.jpg"
-                  alt="Entre em contato via Whatsapp"
-                />
-                <div class="card-content">
-                  <h4 class="title">Dúvidas?</h4>
-                  <a href="http://wa.me/5519971415514" target="_blank">
-                    +55 19 97141-5514
-                  </a>
-                </div>
-              </div>
+          <div class="service">
+            <img
+              class="service-thumb"
+              src="./assets/img/produto-1.jpg"
+              alt="Produto Diamond Drill"
+            />
+            <div class="service-content">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+                dicta doloremque sed architecto ipsum quibusdam in harum at
+                minus accusantium tempore
+                <strong>earum esse repudiandae pariatur</strong> quod, eos
+                veniam iusto fugit. Lorem ipsum dolor, sit amet consectetur
+                adipisicing elit. Possimus, minus. Recusandae, modi blanditiis
+                autem maiores voluptas vitae eum at
+                <strong>amet illum maxime explicabo</strong>
+                aliquam nisi pariatur assumenda non omnis aut?
+              </p>
             </div>
-
-            <div class="col-lg-6">
-              <div class="card" id="catalogue">
-                <img
-                  src="./assets/img/catalogue.jpg"
-                  alt="Entre em contato via Whatsapp"
-                />
-                <div class="card-content">
-                  <h4 class="title">Catálogo de sondas</h4>
-                  <a href="#" target="_blank">
-                    <span class="mx-auto">Download</span>
-                  </a>
-                </div>
-              </div>
+          </div>
+          <div class="service">
+            <img
+              class="service-thumb"
+              src="./assets/img/produto-1.jpg"
+              alt="Produto Diamond Drill"
+            />
+            <div class="service-content">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+                dicta doloremque sed architecto ipsum quibusdam in harum at
+                minus accusantium tempore earum esse repudiandae pariatur quod,
+                eos veniam iusto fugit. Lorem ipsum dolor, sit amet consectetur
+                adipisicing elit. Possimus, minus.
+                <strong
+                  >Recusandae, modi blanditiis autem maiores voluptas</strong
+                >
+                vitae eum at amet illum maxime explicabo aliquam nisi pariatur
+                assumenda non omnis aut? Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Provident, blanditiis? Deleniti nulla totam,
+                nostrum dignissimos tempora temporibus quaerat tempore sed
+                necessitatibus
+                <strong>fuga est magnam provident explicabo</strong>, ipsum
+                placeat? Alias, deleniti!
+              </p>
             </div>
           </div>
         </section>
