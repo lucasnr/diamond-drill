@@ -212,77 +212,9 @@
 }
 
 #questions {
-  background-image: url(../img/background-questions.png);
-  background-size: cover;
-  color: #fff;
-  height: 27.25rem;
-  margin-top: auto;
+  background-image: url(../img/questions-alt.png) !important;
+  height: 27.25rem !important;
   padding-top: 5rem;
-}
-
-#questions .title {
-  border-bottom: 0.25rem solid #fff;
-  display: inline-block;
-  margin: 0px;
-  padding-bottom: 0.375rem;
-}
-
-#questions p {
-  font-size: 0.875rem;
-  line-height: 1.5;
-  margin-bottom: 1.5rem;
-  margin-top: 1rem;
-  text-align: justify;
-}
-
-#questions .button {
-  align-items: center;
-  border-radius: 80rem;
-  color: #fff;
-  display: flex;
-  font-family: 'Gotham Book';
-  font-weight: 400;
-  height: 2rem;
-  padding: 0.25em 0.75em;
-  width: 100%;
-  -webkit-text-stroke: 0px;
-}
-
-#questions .button strong {
-  font-weight: 500;
-}
-
-#questions .button::before {
-  background-size: cover;
-  content: '';
-  display: block;
-  margin-right: auto;
-}
-
-#questions .button > span {
-  margin-right: auto;
-}
-
-#questions .button#whatsapp::before {
-  background-image: url(../img/icons/icon-whatsapp-white.png);
-  height: 1.25rem;
-  width: 1.25rem;
-}
-
-#questions .button#pdf::before {
-  background-image: url(../img/icons/icon-pdf.png);
-  height: 1rem;
-  width: 1rem;
-}
-
-#questions .button#whatsapp {
-  border-color: #1de022;
-}
-
-#questions .button#whatsapp:active,
-#questions .button#whatsapp:focus,
-#questions .button#whatsapp:hover {
-  background-color: #1de022;
 }
 
 @media (max-width: 768px) {
@@ -310,10 +242,6 @@
   #details #details-images img {
     height: 17.25rem;
     width: 15.25rem;
-  }
-
-  #questions {
-    background-position: right top;
   }
 }
 

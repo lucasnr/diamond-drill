@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./assets/css/block/navbar.css" />
     <link rel="stylesheet" href="./assets/css/block/footer.css" />
     <link rel="stylesheet" href="./assets/css/services.css" />
+    <link rel="stylesheet" href="./assets/css/block/questions.css" />
   </head>
   <body>
     <navbar id="navbar">
@@ -28,7 +29,7 @@
                 <a href="./index.html">Sobre nós</a>
               </li>
               <li class="active">
-                <a href="#">Serviços</a>
+                <a href="./services.html">Serviços</a>
               </li>
               <li>
                 <a href="./products.html">Produtos</a>
@@ -81,96 +82,121 @@
     </navbar>
 
     <main>
-      <div class="container">
-        <h1 class="title m-0">Nossos serviços</h1>
+      <header id="banner">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h1 class="title">
+                Nossos
+                <br />
+                Serviços
+              </h1>
+              <p>
+                Estamos empenhados em providenciar além de produtos de
+                qualidade, segurança e com desempenho. Também serviços que irão
+                permitir que você tenha mais capacidade e qualidade de trabalho
+              </p>
+            </div>
 
-        <section id="services">
-          <div class="service">
-            <img
-              class="service-thumb"
-              src="./assets/img/produto-1.jpg"
-              alt="Produto Diamond Drill"
-            />
-            <div class="service-content">
-              <p>
-                Lorem ipsum dolor
-                <strong>sit amet consectetur adipisicing elit</strong>. Magnam
-                dicta doloremque sed architecto ipsum quibusdam in harum at
-                minus accusantium tempore earum esse repudiandae pariatur quod,
-                eos veniam iusto fugit. Lorem ipsum dolor, sit amet consectetur
-                adipisicing elit. Possimus, minus. Recusandae, modi blanditiis
-                autem maiores voluptas vitae eum at amet illum maxime explicabo
-                aliquam nisi pariatur assumenda non omnis aut?
-              </p>
+            <div class="col-md-6">
+              <img
+                src="./assets/img/services/1.png"
+                alt="Equipamento Diamond Drill"
+                class="d-none d-md-block"
+              />
             </div>
           </div>
-          <div class="service">
-            <img
-              class="service-thumb"
-              src="./assets/img/produto-1.jpg"
-              alt="Produto Diamond Drill"
-            />
-            <div class="service-content">
+        </div>
+      </header>
+
+      <section class="service" id="adaptacao">
+        <div class="container">
+          <div
+            class="col-lg-7 col-xl-6 ms-auto d-flex flex-column align-items-start"
+          >
+            <h2 class="service-title">Adpatação de Equipamentos</h2>
+            <p>
+              Além de fabricarmos truck de esteiras de borracha, também
+              <br class="d-none d-xl-block" />
+              trabalhamos com a adaptação de outros equipamentos para
+              <br class="d-none d-xl-block" />
+              suportar esteiras de borracha como formato de transporte.
+            </p>
+            <a href="#" class="service-button">Mais informações</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="service" id="esteiras">
+        <div class="container">
+          <div
+            class="col-lg-7 col-xl-6 ms-auto d-flex flex-column align-items-start"
+          >
+            <h2 class="service-title">Esteiras de borracha</h2>
+            <p>
+              Fabricamos Trucks de Esteiras, que permitem um fácil
+              <br class="d-none d-xl-block" />
+              mais segurança e uma logistica mais prática de serviço para
+              <br class="d-none d-xl-block" />
+              seus equipamentos
+            </p>
+            <a href="#" class="service-button">Mais informações</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="service" id="controle">
+        <div class="container">
+          <div
+            class="col-lg-7 col-xl-6 ms-auto d-flex flex-column align-items-start"
+          >
+            <h2 class="service-title">Controle remoto Wireless</h2>
+            <p>
+              Fornecemos também o serviço de adaptação e produtos que
+              <br class="d-none d-xl-block" />
+              contenham a habilidade de poderem ser movimentados
+              <br class="d-none d-xl-block" />
+              atráves de um controle remoto.
+            </p>
+            <a href="#" class="service-button">Mais informações</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="questions" class="d-flex flex-column justify-content-center">
+        <div class="container">
+          <div class="row gx-5">
+            <div class="col-md-7 col-lg-5 col-xl-4">
+              <h3 class="title">Dúvidas?</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
-                dicta doloremque sed architecto ipsum quibusdam in harum at
-                minus accusantium tempore earum esse
-                <strong> pariatur</strong> quod, eos veniam iusto fugit. Lorem
-                ipsum dolor, sit amet consectetur adipisicing elit. Possimus,
-                minus. Recusandae, modi blanditiis autem maiores voluptas vitae
-                eum at amet illum maxime explicabo aliquam nisi pariatur
-                assumenda non omnis aut?
+                Dúvidas em relação ao equipamento, entre em contato ou faça o
+                download do nosso folder abaixo:
               </p>
+
+              <div class="row gy-3 align-items-stretch">
+                <div class="col-6">
+                  <a
+                    href="http://wa.me/5519971415514"
+                    target="_blank"
+                    class="button"
+                    id="whatsapp"
+                  >
+                    <span><strong>Whats</strong>app</span>
+                  </a>
+                </div>
+                <div class="col-6">
+                  <a href="#" class="button" id="pdf">
+                    <span>
+                      <strong>PDF </strong>
+                      <span>folder</span>
+                    </span>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="service">
-            <img
-              class="service-thumb"
-              src="./assets/img/produto-1.jpg"
-              alt="Produto Diamond Drill"
-            />
-            <div class="service-content">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
-                dicta doloremque sed architecto ipsum quibusdam in harum at
-                minus accusantium tempore
-                <strong>earum esse repudiandae pariatur</strong> quod, eos
-                veniam iusto fugit. Lorem ipsum dolor, sit amet consectetur
-                adipisicing elit. Possimus, minus. Recusandae, modi blanditiis
-                autem maiores voluptas vitae eum at
-                <strong>amet illum maxime explicabo</strong>
-                aliquam nisi pariatur assumenda non omnis aut?
-              </p>
-            </div>
-          </div>
-          <div class="service">
-            <img
-              class="service-thumb"
-              src="./assets/img/produto-1.jpg"
-              alt="Produto Diamond Drill"
-            />
-            <div class="service-content">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
-                dicta doloremque sed architecto ipsum quibusdam in harum at
-                minus accusantium tempore earum esse repudiandae pariatur quod,
-                eos veniam iusto fugit. Lorem ipsum dolor, sit amet consectetur
-                adipisicing elit. Possimus, minus.
-                <strong
-                  >Recusandae, modi blanditiis autem maiores voluptas</strong
-                >
-                vitae eum at amet illum maxime explicabo aliquam nisi pariatur
-                assumenda non omnis aut? Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Provident, blanditiis? Deleniti nulla totam,
-                nostrum dignissimos tempora temporibus quaerat tempore sed
-                necessitatibus
-                <strong>fuga est magnam provident explicabo</strong>, ipsum
-                placeat? Alias, deleniti!
-              </p>
-            </div>
-          </div>
-        </section>
-      </div>
+        </div>
+      </section>
     </main>
 
     <footer id="footer">
