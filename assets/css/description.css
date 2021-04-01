@@ -130,34 +130,6 @@
   z-index: -1;
 }
 
-#cards #video-container {
-  background-color: rgba(0, 0, 0, 0.75);
-  position: relative;
-}
-
-#cards #video-container #video-container-thumb {
-  height: 100%;
-  left: 0px;
-  object-fit: cover;
-  object-position: center;
-  position: absolute;
-  top: 0px;
-  width: 100%;
-  z-index: -1;
-}
-
-#cards #video-play-button {
-  background: none;
-  border: none;
-  display: flex;
-  padding: 0px;
-}
-
-#cards #video-duration {
-  font-size: 0.875rem;
-  font-weight: 700;
-}
-
 #details {
   margin-bottom: -7rem;
   z-index: 10;

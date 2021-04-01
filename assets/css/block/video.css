@@ -1,0 +1,53 @@
+#video-container {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 60vw;
+  padding: 3rem 0px;
+  position: relative;
+  text-shadow: 0px 0px 0.75rem #121212;
+}
+
+#video-container .container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+#video-container .title {
+  font-family: 'Gotham Book';
+  font-weight: 400;
+  font-size: 0.875rem;
+  margin-bottom: auto;
+  margin-top: 0px;
+}
+
+#video-container #video-container-thumb {
+  height: 100%;
+  left: 0px;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  z-index: -1;
+}
+
+#video-play-button {
+  background: none;
+  border: none;
+  display: flex;
+  padding: 0px;
+}
+
+#video-duration {
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+@media (min-width: 576px) {
+  #video-container {
+    height: 28.5rem;
+  }
+}

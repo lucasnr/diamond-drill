@@ -1,0 +1,45 @@
+.banner {
+  padding-bottom: 2rem;
+}
+
+.banner .title {
+  border-bottom: 0.3125rem solid #e61d25;
+  font-family: 'Gotham Book';
+  font-size: 2.125rem;
+  font-weight: 700;
+  line-height: 1;
+  margin-top: 0px;
+  margin-bottom: 2.1875rem;
+  padding-bottom: 2.1875rem;
+}
+
+.banner p {
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.banner img {
+  min-width: 100%;
+}
+
+.banner .service-button,
+.banner .service-button-alt {
+  padding: 0.25rem 0.875rem;
+}
+
+@media (min-width: 576px) {
+  .banner .title {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .banner {
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+  }
+
+  .banner .title {
+    font-size: 3.625rem;
+  }
+}

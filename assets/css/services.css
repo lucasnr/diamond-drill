@@ -1,37 +1,5 @@
-#banner {
-  padding-bottom: 2rem;
-}
-
-#banner .title {
-  border-bottom: 0.3125rem solid #e61d25;
-  font-family: 'Gotham Book';
-  font-size: 3rem;
-  font-weight: 700;
-  line-height: 0.875;
-  margin-top: 0px;
-  margin-bottom: 2.1875rem;
-  padding-bottom: 2.1875rem;
-}
-
-#banner p {
-  line-height: 1.5;
-  text-align: justify;
-}
-
-#banner img {
-  min-width: 100%;
-}
-
-.service {
-  background-position: center left;
-  background-size: cover;
-  padding-bottom: 4.25rem;
-  padding-top: 4.25rem;
-}
-
 .service#adaptacao {
   background-image: url(../img/services/2.png);
-  color: #fff;
 }
 
 .service#esteiras .service-title {
@@ -40,67 +8,6 @@
 
 .service#controle {
   background-image: url(../img/services/4.png);
-  color: #fff;
-}
-
-.service .service-title {
-  font-size: 1.5625rem;
-  margin: 0px;
-  text-transform: uppercase;
-}
-
-.service p {
-  line-height: 1.75;
-  margin: 4.875rem 0px;
-}
-
-.service#esteiras p {
-  text-shadow: 0px 0.125rem 0.75rem rgb(0 0 0 / 38%);
-}
-
-.service#adaptacao,
-.service#controle {
-  text-shadow: 0px 0px 0.375rem #000;
-}
-
-.service .service-button {
-  border: 0.1875rem solid currentColor;
-  border-radius: 1rem;
-  color: #fff;
-  font-weight: 700;
-  padding: 0.875rem 2rem;
-  text-transform: uppercase;
-  text-shadow: none !important;
-  transition: color 0.3s ease, background-color 0.3s ease,
-    border-color 0.3s ease;
-  white-space: nowrap;
-}
-
-.service .service-button:hover {
-  background-color: #fff;
-  border-color: #fff;
-  color: #e61d25;
-}
-
-.service#esteiras .service-button {
-  color: #e61d25;
-}
-
-.service#esteiras .service-button:hover {
-  color: #fff;
-  background-color: #e61d25;
-  border-color: #e61d25;
-}
-
-@media (min-width: 768px) {
-  #banner {
-    padding-bottom: 5rem;
-    padding-top: 5rem;
-  }
-
-  #banner .title {
-    font-size: 3.625rem;
-  }
 }
 
 @media (min-width: 992px) {
