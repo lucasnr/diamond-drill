@@ -11,6 +11,16 @@
   width: 75%;
 }
 
+.service:not(.service-alt) .service-button {
+  color: #131313;
+}
+
+.service:not(.service-alt) .service-button:hover {
+  background-color: #131313;
+  border-color: #131313;
+  color: #fff;
+}
+
 #dtrt1 {
   background-image: url(../img/services/8.png);
 }

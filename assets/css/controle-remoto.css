@@ -1,0 +1,18 @@
+#seguranca {
+  background-image: url(../img/services/15.png);
+}
+
+@media (min-width: 992px) {
+  .banner {
+    background-image: url(../img/services/14.png);
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 4rem);
+    background-position-y: top;
+  }
+}
+
+@media (min-width: 1200px) {
+  .banner {
+    background-position-x: calc(100% - 10rem);
+  }
+}
