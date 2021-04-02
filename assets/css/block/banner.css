@@ -22,11 +22,6 @@
   min-width: 100%;
 }
 
-.banner .service-button,
-.banner .service-button-alt {
-  padding: 0.25rem 0.875rem;
-}
-
 @media (min-width: 576px) {
   .banner .title {
     font-size: 3rem;

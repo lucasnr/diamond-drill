@@ -1,0 +1,36 @@
+.banner .service-button {
+  font-weight: 500;
+}
+
+.banner .service-button svg {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.service img {
+  width: 75%;
+}
+
+#dtrt1 {
+  background-image: url(../img/services/8.png);
+}
+
+#dtrt5 {
+  background-image: url(../img/services/9.png);
+}
+
+@media (min-width: 992px) {
+  .service img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .banner {
+    background-image: url(../img/services/11.png);
+    background-position-x: right;
+    background-position-y: top;
+    background-size: 39rem;
+    background-repeat: no-repeat;
+  }
+}
