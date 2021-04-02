@@ -1,0 +1,94 @@
+.card {
+  background-image: url(../../img/background.png);
+  background-repeat: repeat;
+  color: #fff;
+}
+
+.card .card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.card .title {
+  margin-top: 0px;
+  margin-bottom: 1rem;
+}
+
+.bottom-cards .card {
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  display: flex;
+  height: 100%;
+  overflow: hidden;
+}
+
+.bottom-cards .card img {
+  display: none;
+  object-fit: cover;
+  object-position: center;
+  width: 40%;
+}
+
+.bottom-cards .card .card-content {
+  flex-grow: 1;
+  padding: 2rem;
+}
+
+.bottom-cards .card .title {
+  line-height: 0.875;
+  font-size: 1.5rem;
+}
+
+#whatsapp .title {
+  text-decoration: underline;
+}
+
+#whatsapp a,
+#catalogue a {
+  align-items: center;
+  display: flex;
+  font-family: 'Eurostile';
+  text-transform: uppercase;
+}
+
+#catalogue a {
+  background-image: linear-gradient(to right, #e61d25, rgba(230, 29, 37, 0.5));
+  font-size: 0.75rem;
+  padding: 0.375rem;
+  width: 9.5rem;
+}
+
+#whatsapp a::before,
+#catalogue a::before {
+  background-position: center;
+  background-size: cover;
+  content: ' ';
+  display: block;
+  margin-right: 1ch;
+}
+
+#whatsapp a::before {
+  background-image: url(../../img/icons/icon-whatsapp.png);
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+#catalogue a::before {
+  background-image: url(../../img/icons/icon-download.png);
+  height: 1rem;
+  width: 1rem;
+}
+
+@media (min-width: 576px) {
+  .bottom-cards .card img {
+    display: block;
+  }
+}
+
+@media (min-width: 1200px) {
+  .bottom-cards .card img {
+    width: 50%;
+  }
+}
